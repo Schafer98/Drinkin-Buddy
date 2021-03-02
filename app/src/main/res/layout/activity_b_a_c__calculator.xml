@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#A9A9A9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BAC_Calculator">
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btnBack"
+        android:textSize="20.4375sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtUserBAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtUserBAC"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtBAC_Calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <TextView
+        android:id="@+id/txtBAC_Calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBAC_Calc"
+        android:textColor="#000000"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <GridLayout
+
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBAC_Calculator"
+        app:layout_constraintVertical_bias="0.10">
+
+        <!-- Male or Female Row -->
+        <TextView
+            android:id="@+id/txtMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:paddingBottom="50dp"
+            android:text="@string/txtMale"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/switchM_F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:paddingBottom="50dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:paddingBottom="50dp"
+            android:text="@string/txtFemale"
+            android:textSize="25sp" />
+
+        <!-- Body weight-->
+        <TextView
+            android:id="@+id/txtWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/txtBodyWeight"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edtEnterBodyWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:ems="3"
+            android:hint="@string/Zero" />
+
+        <!-- Beer Wine Liquor TextViews-->
+        <TextView
+            android:id="@+id/txtBeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:paddingBottom="50dp"
+            android:paddingTop="50dp"
+            android:text="@string/txtBeer"
+            android:textSize="22.5sp" />
+
+        <TextView
+            android:id="@+id/txtWine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:paddingBottom="50dp"
+            android:paddingTop="50dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:text="@string/txtWine"
+            android:textSize="22.5sp" />
+
+        <TextView
+            android:id="@+id/txtLiquor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:paddingBottom="50dp"
+            android:paddingTop="50dp"
+            android:text="@string/txtLiqour"
+            android:textSize="22.5sp" />
+
+        <!-- Beer Wine Liquor EditBoxes-->
+        <!-- Should only take in numbers, check when we start linking pages -->
+        <EditText
+            android:id="@+id/edtEnterBeerAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:ems="2"
+            android:hint="@string/Zero" />
+
+        <EditText
+            android:id="@+id/edtEnterWineAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:ems="2"
+            android:hint="@string/Zero" />
+
+        <EditText
+            android:id="@+id/edtEnterLiquorAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:ems="2"
+            android:hint="@string/Zero" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="@string/btnCalculate"
+        android:textSize="27.25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

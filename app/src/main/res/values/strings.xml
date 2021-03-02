@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Drinkin\' Buddy</string>
+
+    <!-- Login/Signup Page -->
+    <string name="txtDrinkinBuddy">Drinkin\' Buddy</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnSignUp">SignUp</string>
+    <string name="txtUsername">Username</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtConfirmPassword">Confirm Password</string>
+    <string name="edtEnterUsername">Enter Username</string>
+    <string name="edtEnterPassword">Enter Password</string>
+
+    <!-- Main Menu Start drinking... -->
+    <string name="btnStartDrinkTimer">Start The Drinking Timer</string>
+    <string name="btnCheckOversight">Check Oversight</string>
+    <string name="btnSafetyPage">Safety Page</string>
+    <string name="btnSettings">Settings</string>
+    <string name="btnBACCalculator">BAC Calculator</string>
+
+    <!-- Oversight Page -->
+    <string name="txtOversight">Oversight</string>
+    <string name="btnBack">Go Back</string>
+    <string name="switchLocation">Location On/Off - </string>
+    <string name="btnAddFriends">Add Friends</string>
+
+    <!-- BAC Calculator Page -->
+    <string name="txtBAC_Calc">BAC Calculator</string>
+    <string name="txtMale">Male</string>
+    <string name="txtFemale">Female</string>
+    <string name="txtBeer">Beer 12oz\n<br>(5% ABV)</br></string>
+    <string name="txtWine">Wine 5oz\n<br>(12% ABV)</br></string>
+    <string name="txtLiqour">Liquor 1.5oz\n<br>(40% ABV)</br></string>
+    <string name="Zero">0</string>
+    <string name="btnCalculate">Calculate BAC</string>
+    <string name="txtBodyWeight">Body Weight: </string>
+    <string name="txtUserBAC">Your BAC levels are: 0.0</string>
+
+
+
+
+
+
+
+</resources>
