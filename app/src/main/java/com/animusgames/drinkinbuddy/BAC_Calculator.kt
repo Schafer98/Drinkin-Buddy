@@ -41,7 +41,8 @@ class BAC_Calculator : AppCompatActivity() {
 
     //Floats
     private var totalWeight: Float = 0.0F
-    private var Male_OR_Female: Float = 0.0F
+    // Not being used
+    // private var Male_OR_Female: Float = 0.0F
     private var userBAC: Float = 0.0F
 
     override fun onCreate(savedInstanceState: Bundle?) {
