@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+//For Firebase
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+
 
 android {
     compileSdkVersion 29
@@ -35,4 +38,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    //Firebase instruction
+    implementation platform('com.google.firebase:firebase-bom:26.7.0')
+    // Declare the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    // Declare the dependencies for any other desired Firebase products
+    // For example, declare the dependencies for Firebase Authentication and Cloud Firestore
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
 }

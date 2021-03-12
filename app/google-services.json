@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "132358087277",
+    "project_id": "drinkin-buddy-307218",
+    "storage_bucket": "drinkin-buddy-307218.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132358087277:android:3e81772b6d005872801564",
+        "android_client_info": {
+          "package_name": "com.animusgames.drinkinbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132358087277-odcttavrdggbgbfvh1lep575qf9nc4r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhbbLG-TUQwGDRI2twcd7JYUyUZs9W-Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132358087277-odcttavrdggbgbfvh1lep575qf9nc4r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
