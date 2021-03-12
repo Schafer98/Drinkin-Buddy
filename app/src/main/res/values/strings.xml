@@ -5,11 +5,14 @@
     <string name="txtDrinkinBuddy">Drinkin\' Buddy</string>
     <string name="btnLogin">Login</string>
     <string name="btnSignUp">SignUp</string>
-    <string name="txtUsername">Email</string>
+    <string name="txtUsername">Username</string>
+    <string name="txtEmail">Email Address</string>
     <string name="txtPassword">Password</string>
     <string name="txtConfirmPassword">Confirm Password</string>
     <string name="edtEnterUsername">Enter Username</string>
     <string name="edtEnterPassword">Enter Password</string>
+    <string name="txtBackToLogin">Back to Login</string>
+    <string name="txtForgotPassword">Forgot Password?</string>
 
     <!-- Main Menu Start drinking... -->
     <string name="btnStartDrinkTimer">Start The Drinking Timer</string>
@@ -35,11 +38,6 @@
     <string name="btnCalculate">Calculate BAC</string>
     <string name="txtBodyWeight">Body Weight: </string>
     <string name="txtUserBAC">Your BAC levels are: 0.0</string>
-
-
-
-
-
 
 
 </resources>
