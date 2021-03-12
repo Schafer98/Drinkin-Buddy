@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterUser"></activity>
-        <activity android:name=".BAC_Calculator" />
-        <activity android:name=".Oversight" />
-        <activity android:name=".MainMenu" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".RegisterUser">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".BAC_Calculator" />
+        <activity android:name=".Oversight" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 
